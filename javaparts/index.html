@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name="Description" content="Java components: DDE for Java"/>
+  <meta name="Keywords" content="java dde javaparts api library"/>
+  <title>Java Parts :: Products</title>
+  <link rel="stylesheet" href="/javaparts/pure.css" type="text/css" media="all"/>
+</head>
+<body>
+  <div id="container">
+<div id="header" title="Java Parts">
+  <h1>Java Parts</h1>
+</div>
+
+<div id="mainnav">
+  <ul>
+    <li><a href="/news.php" title="Plans, releases, changes"<?if ($_SERVER['PHP_SELF']=='/news.php') {?> class="active"<?}?>>News</a></li>
+    <li><a href="/products.php" title="Products"<?if ($_SERVER['PHP_SELF']=='/products.php') {?> class="active"<?}?>>Products</a></li>
+    <li><a href="/contact.php" title="Contact support"<?if ($_SERVER['PHP_SELF']=='/contact.php') {?> class="active"<?}?>>Support</a></li>
+<?php if (isset($_SESSION['USER_ID'])) { ?>
+  <li><a href="/profile.php" title="View, change your profile"<?if ($_SERVER['PHP_SELF']=='/profile.php') {?> class="active"<?}?>>Profile</a></li>
+  <li><a href="/logout.php" title="Logout">Logout</a></li>
+<?php } else { ?>
+  <li><a href="/login.php" title="Login or Register"<?if ($_SERVER['PHP_SELF']=='/login.php') {?> class="active"<?}?>>Login</a></li>
+<?php } ?>
+  </ul>
+</div>
+
+    <div id="centerpane">
+      <h2>DDE for Java</h2>
+      <p>
+         DDE for Java library allows Java applications to communicate with
+         native applications on Windows platform via Dynamic Data Exchange
+         (DDE) protocol.
+      </p>
+      <p class="productmenu">
+         <a href="dde/index.php" title="Features, product info">features</a> ::
+         <a href="dde/faq.php" title="Frequently Asked Questions">faq</a> ::
+         <a href="dde/javadoc/index.html" title="API documentation">javadoc</a> ::
+         <a href="dde/examples.php" title="Use examples">examples</a> ::
+         <a href="dde/download.php" title="Download">download</a> ::
+         <a href="dde/purchase.php" title="Purchase">purchase</a>
+      </p>
+      <h2>DDE Proxy</h2>
+      <p>
+         DDE for Java library allows Java applications to communicate with
+         native applications on Windows platform via Dynamic Data Exchange
+         (DDE) protocol.
+      </p>
+      <p class="productmenu">
+         <a href="proxy/index.php">product information</a>
+      </p>
+      <h2>DDE Monitor</h2>
+      <p>
+         DDE for Java library allows Java applications to communicate with
+         native applications on Windows platform via Dynamic Data Exchange
+         (DDE) protocol.
+      </p>
+      <p class="productmenu">
+         <a href="monitor/index.php">product information</a>
+      </p>
+    </div>
+
+<div id="footer">
+   Copyright &copy; 2004-2015 Java Parts, All rights reserved.
+</div>
+  </div>
+</body>
+</html>

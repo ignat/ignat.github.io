@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial, helvetica, sans-serif;
+  background-color: #cccccc;
+  text-align: center;
+  font-size: 11pt;
+}
+h1 {
+  padding: 0.7em 0 0.7em 1em;
+  margin: 0;
+}
+h2 {
+  margin: 0;
+  padding-top: 10px;
+  border-bottom: 1px solid #4766a6;
+  font-size: 13pt;
+}
+h3 {
+  margin: 10px 0 2px 0;
+}
+h4 {
+  margin: 0.7em 0 0.3em 0;
+  padding: 0;
+}
+label {
+  font-weight: bold;
+  width: 9em;
+  margin: 4px 0 0 0;
+  text-align: right;
+  float: left;
+}
+input, select, textarea {
+  margin: 4px; margin-left: 0.8em; font-size: 10pt;
+}
+form {
+  margin-top: 1em;
+}
+pre {
+  padding: 5px;
+  background-color: #aaa;
+  font-size: 90%;
+}
+fieldset.plain {
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+a:visited {
+  color: #6666cc;
+}
+dl.info dt {
+  width: 9em;
+  text-align: right;
+  float: left;
+  font-weight: bold;
+  clear: left;
+}
+dl.info dd {
+  margin-left: 9.5em;
+}
+ul.front {
+  margin: 0.5em 0;
+  padding-left: 1em;
+}
+ul.front li {
+  margin: 0;
+}
+#container {
+  margin: 1em auto;
+  width: 650px;
+  text-align: left;
+  background: #cccc99 url(/images/bg.gif) repeat-y;
+  border: 1px solid #003366;
+}
+#header {
+  height: 82px;
+  background: #cccc99 url(/images/gear.gif) no-repeat;
+}
+#header h1 {
+  display: none;
+}
+#mainnav {
+  background-color: #4766a6;
+  color: black;
+  padding: 2px 0;
+  margin-bottom: 0;
+}
+#mainnav ul {
+  margin: 0 0 0 20px;
+  padding: 0;
+  list-style-type: none;
+  border-left: 1px solid white;
+}
+#mainnav li {
+  display: inline;
+  padding: 0 10px;
+  border-right: 1px solid white;
+}
+#mainnav li a {
+  text-decoration: none;
+  color: white;
+}
+#mainnav li a.active {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+#mainnav li a:hover {
+  text-decoration: underline;
+}
+#mainnav li a.active:hover {
+  text-decoration: none;
+}
+#menu {
+  float: right;
+  width: 125px;
+  margin: 10px 0;
+}
+#menu ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: circle inside;
+  border-top: 1px solid black;
+}
+#menu ul li {
+  margin: 0;
+  padding: 5px 0 5px 4px;
+  border-bottom: 1px solid black;
+}
+#menu ul li.active {
+  margin: 0;
+  padding: 5px 0 5px 4px;
+  border-bottom: 1px solid black;
+  list-style: disc inside;
+  background-color: #999966;
+}
+#menu ul a {
+  color: #4a1010;
+  text-decoration: none;
+}
+#menu ul li.active a {
+  color: black;
+  text-decoration: none;
+}
+#menu ul a:hover {
+  text-decoration: underline;
+  color: #003399;
+}
+#menu ul li.active a:hover {
+  text-decoration: none;
+  color: black;
+}
+#contents {
+  margin: 0 20px 20px 20px;
+}
+#centerpane {
+  text-align: left;
+  margin: 0 155px 8px 20px;
+  min-height: 350px;
+}
+#footer {
+  clear: both;
+  background-color: #4766a6;
+  color: white;
+  padding: 5px;
+  font-size: 80%;
+}
+.error {
+  color: #900;
+  font-size: 90%;
+}
+.productmenu {
+  text-align: right;
+  font-size: 90%;
+}
+.newsdate {
+  color: #630;
+}
+table.form {
+	background-color: #003399;
+}
+table.form td {
+	background-color: #FFFFFF;
+}
+table.form th {
+	background-color: #ececff;
+	text-align: left;
+}
+table.purchase {
+	background-color: #003366;
+        margin: 0.3em 0;
+}
+table.purchase td {
+	background-color: #cccc99;
+        text-align: left;
+}
+table.purchase td.cur {
+        text-align: right;
+        font-weight: bold;
+}
+table.purchase th {
+	background-color: #999966;
+	text-align: left;
+}
+.ni {
+  margin: 0;
+  padding: 0;
+}
+.ni p {
+  margin-top: 0; margin-bottom: 0.5em;
+}
+p.note {
+  margin: 0.3em 0 0 1em;
+}
+p.q {
+  margin: 0.8em 0 0.2em 0; text-align: left; font-weight: bold;
+}
+p.a {
+  margin: 0;
+}
+div.version {
+    margin-top: 0.7em;
+    font-weight: bold;
+}
+div.download {
+    margin-left: 2em;
+}
+div.download a {
+    color: blue;
+}
+div.notes {
+    margin-top: 1em;
+    font-size: 90%;
+}
+div.formnote {
+    margin: 0.8em 0 0.2em 0;
+}
+div.formfooter {
+    margin: 0.5em 0 0 0;
+    padding-left: 9em;
+}
+span.str {
+  color: #cc0099;
+}
+span.com {
+  color: blue;
+}
+span.key {
+  color: #660000;
+}
+span.rqrd {
+  color: #cc0000;
+}
