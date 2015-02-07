@@ -16,15 +16,9 @@
 
 <div id="mainnav">
   <ul>
-    <li><a href="/news.php" title="Plans, releases, changes"<?if ($_SERVER['PHP_SELF']=='/news.php') {?> class="active"<?}?>>News</a></li>
-    <li><a href="/products.php" title="Products"<?if ($_SERVER['PHP_SELF']=='/products.php') {?> class="active"<?}?>>Products</a></li>
-    <li><a href="/contact.php" title="Contact support"<?if ($_SERVER['PHP_SELF']=='/contact.php') {?> class="active"<?}?>>Support</a></li>
-<?php if (isset($_SESSION['USER_ID'])) { ?>
-  <li><a href="/profile.php" title="View, change your profile"<?if ($_SERVER['PHP_SELF']=='/profile.php') {?> class="active"<?}?>>Profile</a></li>
-  <li><a href="/logout.php" title="Logout">Logout</a></li>
-<?php } else { ?>
-  <li><a href="/login.php" title="Login or Register"<?if ($_SERVER['PHP_SELF']=='/login.php') {?> class="active"<?}?>>Login</a></li>
-<?php } ?>
+    <li><a href="/news.php" title="Plans, releases, changes">News</a></li>
+    <li><a href="/products.php" title="Products">Products</a></li>
+    <li><a href="/contact.php" title="Contact support">Support</a></li>
   </ul>
 </div>
 
@@ -42,24 +36,6 @@
          <a href="dde/examples.php" title="Use examples">examples</a> ::
          <a href="dde/download.php" title="Download">download</a> ::
          <a href="dde/purchase.php" title="Purchase">purchase</a>
-      </p>
-      <h2>DDE Proxy</h2>
-      <p>
-         DDE for Java library allows Java applications to communicate with
-         native applications on Windows platform via Dynamic Data Exchange
-         (DDE) protocol.
-      </p>
-      <p class="productmenu">
-         <a href="proxy/index.php">product information</a>
-      </p>
-      <h2>DDE Monitor</h2>
-      <p>
-         DDE for Java library allows Java applications to communicate with
-         native applications on Windows platform via Dynamic Data Exchange
-         (DDE) protocol.
-      </p>
-      <p class="productmenu">
-         <a href="monitor/index.php">product information</a>
       </p>
     </div>
 

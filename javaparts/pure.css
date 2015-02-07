@@ -70,12 +70,12 @@ ul.front li {
   margin: 1em auto;
   width: 650px;
   text-align: left;
-  background: #cccc99 url(/images/bg.gif) repeat-y;
+  background: #cccc99 url(/javaparts/bg.gif) repeat-y;
   border: 1px solid #003366;
 }
 #header {
   height: 82px;
-  background: #cccc99 url(/images/gear.gif) no-repeat;
+  background: #cccc99 url(/javaparts/gear.gif) no-repeat;
 }
 #header h1 {
   display: none;
